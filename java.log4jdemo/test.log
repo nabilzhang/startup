@@ -36,3 +36,59 @@
 2014-03-20 00:03:18,963 ERROR [me.sample.log4jdemo.IndexController] - I am programming.
 2014-03-20 00:03:18,963 WARN [me.sample.log4jdemo.IndexController] - I love programming.
 2014-03-20 00:03:18,963 FATAL [me.sample.log4jdemo.IndexController] - I am now dead. I should have been a movie star.
+[2014-03-20 00:21:03,932] INFO  Root WebApplicationContext: initialization started
+[2014-03-20 00:21:04,145] INFO  Refreshing Root WebApplicationContext: startup date [Thu Mar 20 00:21:04 CST 2014]; root of context hierarchy
+[2014-03-20 00:21:04,257] INFO  Loading XML bean definitions from class path resource [applicationContext.xml]
+[2014-03-20 00:21:04,458] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b495e: defining beans []; root of factory hierarchy
+[2014-03-20 00:21:04,464] INFO  Root WebApplicationContext: initialization completed in 532 ms
+[2014-03-20 00:21:04,617] INFO  FrameworkServlet 'appServlet': initialization started
+[2014-03-20 00:21:04,623] INFO  Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Mar 20 00:21:04 CST 2014]; parent: Root WebApplicationContext
+[2014-03-20 00:21:04,626] INFO  Loading XML bean definitions from class path resource [servlet-context.xml]
+[2014-03-20 00:21:05,023] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1489391: defining beans [indexController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@b495e
+[2014-03-20 00:21:05,332] INFO  Mapped "{[/index/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String me.sample.log4jdemo.IndexController.index()
+[2014-03-20 00:21:06,083] INFO  FrameworkServlet 'appServlet': initialization completed in 1466 ms
+[2014-03-20 00:22:51,539] INFO  Root WebApplicationContext: initialization started
+[2014-03-20 00:22:51,702] INFO  Refreshing Root WebApplicationContext: startup date [Thu Mar 20 00:22:51 CST 2014]; root of context hierarchy
+[2014-03-20 00:22:51,788] INFO  Loading XML bean definitions from class path resource [applicationContext.xml]
+[2014-03-20 00:22:51,936] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@124588d: defining beans []; root of factory hierarchy
+[2014-03-20 00:22:51,942] INFO  Root WebApplicationContext: initialization completed in 403 ms
+[2014-03-20 00:22:52,085] INFO  FrameworkServlet 'appServlet': initialization started
+[2014-03-20 00:22:52,092] INFO  Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Mar 20 00:22:52 CST 2014]; parent: Root WebApplicationContext
+[2014-03-20 00:22:52,094] INFO  Loading XML bean definitions from class path resource [servlet-context.xml]
+[2014-03-20 00:22:52,574] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@193d548: defining beans [indexController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@124588d
+[2014-03-20 00:22:52,792] INFO  Mapped "{[/index/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String me.sample.log4jdemo.IndexController.index()
+[2014-03-20 00:22:53,291] INFO  FrameworkServlet 'appServlet': initialization completed in 1206 ms
+[2014-03-20 00:26:32,921] INFO  I am fine.
+[2014-03-20 00:26:32,921] ERROR I am programming.
+[2014-03-20 00:26:32,921] WARN  I love programming.
+[2014-03-20 00:26:32,921] FATAL I am now dead. I should have been a movie star.
+[2014-03-20 00:27:57,555] INFO  Root WebApplicationContext: initialization started
+[2014-03-20 00:27:57,695] INFO  Refreshing Root WebApplicationContext: startup date [Thu Mar 20 00:27:57 CST 2014]; root of context hierarchy
+[2014-03-20 00:27:57,791] INFO  Loading XML bean definitions from class path resource [applicationContext.xml]
+[2014-03-20 00:27:57,932] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1bb2525: defining beans []; root of factory hierarchy
+[2014-03-20 00:27:57,939] INFO  Root WebApplicationContext: initialization completed in 384 ms
+[2014-03-20 00:27:58,055] INFO  FrameworkServlet 'appServlet': initialization started
+[2014-03-20 00:27:58,059] INFO  Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Mar 20 00:27:58 CST 2014]; parent: Root WebApplicationContext
+[2014-03-20 00:27:58,062] INFO  Loading XML bean definitions from class path resource [servlet-context.xml]
+[2014-03-20 00:27:58,549] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eb35ea: defining beans [indexController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1bb2525
+[2014-03-20 00:27:58,773] INFO  Mapped "{[/index/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String me.sample.log4jdemo.IndexController.index()
+[2014-03-20 00:27:59,263] INFO  FrameworkServlet 'appServlet': initialization completed in 1208 ms
+[2014-03-20 00:28:03,057] INFO  I am fine.
+[2014-03-20 00:28:03,057] ERROR I am programming.
+[2014-03-20 00:28:03,057] WARN  I love programming.
+[2014-03-20 00:28:03,057] FATAL I am now dead. I should have been a movie star.
+[2014-03-20 00:28:33,060] INFO  Root WebApplicationContext: initialization started
+[2014-03-20 00:28:33,217] INFO  Refreshing Root WebApplicationContext: startup date [Thu Mar 20 00:28:33 CST 2014]; root of context hierarchy
+[2014-03-20 00:28:33,313] INFO  Loading XML bean definitions from class path resource [applicationContext.xml]
+[2014-03-20 00:28:33,462] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@867c21: defining beans []; root of factory hierarchy
+[2014-03-20 00:28:33,469] INFO  Root WebApplicationContext: initialization completed in 408 ms
+[2014-03-20 00:28:33,611] INFO  FrameworkServlet 'appServlet': initialization started
+[2014-03-20 00:28:33,616] INFO  Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Mar 20 00:28:33 CST 2014]; parent: Root WebApplicationContext
+[2014-03-20 00:28:33,619] INFO  Loading XML bean definitions from class path resource [servlet-context.xml]
+[2014-03-20 00:28:33,975] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a34f90: defining beans [indexController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@867c21
+[2014-03-20 00:28:34,201] INFO  Mapped "{[/index/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String me.sample.log4jdemo.IndexController.index()
+[2014-03-20 00:28:34,849] INFO  FrameworkServlet 'appServlet': initialization completed in 1238 ms
+[2014-03-20 00:28:38,737] INFO  I am fine.
+[2014-03-20 00:28:38,738] ERROR I am programming.
+[2014-03-20 00:28:38,738] WARN  I love programming.
+[2014-03-20 00:28:38,738] FATAL I am now dead. I should have been a movie star.
